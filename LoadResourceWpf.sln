@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadResourceWpf.Demo", "WPFLoadResources_CS\LoadResourceWpf.Demo.csproj", "{D11FB7FD-7062-4740-8C6A-F049BBD4250C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadResourceWpf", "LoadResourceWpf\LoadResourceWpf.csproj", "{B66FF416-77F3-47DA-9856-A29D0E48084A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D11FB7FD-7062-4740-8C6A-F049BBD4250C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11FB7FD-7062-4740-8C6A-F049BBD4250C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11FB7FD-7062-4740-8C6A-F049BBD4250C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11FB7FD-7062-4740-8C6A-F049BBD4250C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66FF416-77F3-47DA-9856-A29D0E48084A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66FF416-77F3-47DA-9856-A29D0E48084A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66FF416-77F3-47DA-9856-A29D0E48084A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66FF416-77F3-47DA-9856-A29D0E48084A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91DF9734-B839-41EC-A71A-CB8E2815D28F}
+	EndGlobalSection
+EndGlobal

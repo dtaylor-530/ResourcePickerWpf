@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPFLoadResources_CS.frmLoadResources"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lr="clr-namespace:LoadResourceWpf;assembly=LoadResourceWpf"
+        WindowStartupLocation="CenterScreen"
+        Title="Load Resources Dynamically"
+        MinHeight="300"
+        MinWidth="350"
+        SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel>
+
+            <lr:ResourcePicker Path="..\..\Dictionaries" Width="80" Margin="10"></lr:ResourcePicker>
+
+            <Grid Style="{DynamicResource DynamicGridBrush}" 
+                  Margin="5"
+              Height="180"
+              Width="250" />
+
+        </StackPanel>
+    </Grid>
+</Window>
